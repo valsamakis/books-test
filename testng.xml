@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <parameter name="username" value="upstream"/>
+    <parameter name="password" value="Asd123!."/>
+
+
+    <test thread-count="1" name="Test">
+        <classes>
+            <class name="demoqa.LoginTest"/>
+            <class name="demoqa.BooksListTest"/>
+        </classes>
+
+    </test>
+</suite>
